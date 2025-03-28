@@ -7,6 +7,12 @@ const PRODUCTS = [
         rating: 4.9,
         stock: 25,
         images: 'https://images.unsplash.com/photo-1588168333986-5078d3ae3976?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+        features: [
+            'Prime grade',
+            'Aged 21 days',
+            'Hormone-free',
+            'Ethically raised'
+        ]
     },
     {
         id: 2,
@@ -16,6 +22,12 @@ const PRODUCTS = [
         rating: 4.8,
         stock: 18,
         images: 'https://images.unsplash.com/photo-1558030006-450675393462?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+        features: [
+            'Center-cut',
+            'Aged 28 days',
+            'Grass-fed',
+            'Hand-trimmed'
+        ]
     },
     {
         id: 3,
@@ -25,5 +37,11 @@ const PRODUCTS = [
         rating: 4.7,
         stock: 12,
         images: 'https://images.unsplash.com/photo-1615937657715-bc7b4b7962c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+        features: [
+            'Thick cut',
+            'Aged 21 days',
+            'Locally sourced',
+            'Perfect for sharing'
+        ]
     }
 ];
